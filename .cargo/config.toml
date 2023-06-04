@@ -1,0 +1,11 @@
+# [http]
+# proxy = "127.0.0.1:7890"
+
+# [https]
+# proxy = "127.0.0.1:7890"
+
+[build]
+rustc-wrapper = "/usr/local/bin/sccache"
+
+[registries.crates-io]
+protocol = "sparse"

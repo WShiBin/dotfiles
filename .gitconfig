@@ -1,0 +1,9 @@
+[user]
+	name = Shi Bin
+	email = 15519900807@qq.com
+[core]
+	name = ShiBin
+	email = 15519900807@qq.com
+	editor = vim
+[init]
+	defaultBranch = master
