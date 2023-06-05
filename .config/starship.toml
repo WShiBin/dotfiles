@@ -5,12 +5,6 @@
 add_newline = true
 command_timeout = 500000
 
-# # Replace the "❯" symbol in the prompt with "➜"
-# [character] # The name of the module we are configuring is "character"
-# success_symbol = "[➜](bold green)"
-# error_symbol = "[✗](bold red)"
-# vimcmd_symbol = "[v](bold green)"
-
 # Disable the package module, hiding it from the prompt completely
 [package]
 disabled = true

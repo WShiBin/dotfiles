@@ -237,9 +237,7 @@ pane_frames false
 // Choose the theme that is specified in the themes section.
 // Default: default
 //
-// theme "dracula"
-// theme "nord"
-theme "tokyo-night-dark"
+theme "github-dark"
 
 // The name of the default layout to load on startup
 // Default: "default"
