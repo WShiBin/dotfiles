@@ -200,6 +200,10 @@ plugins {
 //
 // default_shell "fish"
 
+// Choose the path to override cwd that zellij will use for opening new panes
+//
+// default_cwd ""
+
 // Toggle between having pane frames around the panes
 // Options:
 //   - true (default)
@@ -218,21 +222,38 @@ pane_frames false
 // For more examples, see: https://github.com/zellij-org/zellij/tree/main/example/themes
 // Once these themes are defined, one of them should to be selected in the "theme" section of this file
 //
-// themes {
-//     dracula {
-//         fg 248 248 242
-//         bg 40 42 54
-//         red 255 85 85
-//         green 80 250 123
-//         yellow 241 250 140
-//         blue 98 114 164
-//         magenta 255 121 198
-//         orange 255 184 108
-//         cyan 139 233 253
-//         black 0 0 0
-//         white 255 255 255
-//     }
-// }
+themes {
+    dracula {
+        fg 248 248 242
+        bg 40 42 54
+        red 255 85 85
+        green 80 250 123
+        yellow 241 250 140
+        blue 98 114 164
+        magenta 255 121 198
+        orange 255 184 108
+        cyan 139 233 253
+        black 0 0 0
+        white 255 255 255
+    }
+    github-dark {
+        bg "#010409" // panel.background
+        // fg "#e6edf3" // foreground
+        // fg "#b1bac4"
+        fg "#F4F4F4"
+        // terminal.ansi*
+        black "#484f58"
+        red "#ff7b72"
+        green "#3fb950"
+        yellow "#d29922"
+        blue "#58a6ff"
+        magenta "#bc8cff"
+        cyan "#39c5cf"
+        // white "#b1bac4"
+        white "#8E959E"
+        orange "#FF9E64" // TODO: Not found in github theme
+    }
+}
 
 // Choose the theme that is specified in the themes section.
 // Default: default
